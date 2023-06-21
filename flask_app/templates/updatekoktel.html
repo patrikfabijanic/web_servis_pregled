@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Ažuriranje koktela</title>
+    <style>
+        .update-button {
+            background-color: blue;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h1>Ažuriraj koktel</h1>
+    <form method="POST" action="/updatekoktel/{{ id }}">
+        <label for="titolo_kok">Naziv:</label>
+        <input type="text" name="titolo_kok" id="titolo_kok" required><br><br>
+        
+        <label for="sastojci_kok">Sastojci:</label>
+        <input type="text" name="sastojci_kok" id="sastojci_kok" required><br><br>
+        
+        <label for="info_kok">Informacije:</label>
+        <input type="text" name="info_kok" id="info_kok" required><br><br>
+        
+        <input class="update-button" type="submit" value="Ažuriraj">
+    </form>
+</body>
+</html>

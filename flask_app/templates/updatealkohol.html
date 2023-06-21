@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Ažuriranje alkohola</title>
+    <style>
+        .update-button {
+            background-color: blue;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h1>Ažuriraj alkohol</h1>
+    <form method="POST" action="/updatealkohol/{{ id }}">
+        <label for="titolo_alk">Naziv alkohola:</label>
+        <input type="text" name="titolo_alk" id="titolo_alk" required><br><br>
+        
+        <label for="info_alk">Informacije:</label>
+        <input type="text" name="info_alk" id="info_alk" required><br><br>
+        
+        <input class="update-button" type="submit" value="Ažuriraj">
+    </form>
+</body>
+</html>

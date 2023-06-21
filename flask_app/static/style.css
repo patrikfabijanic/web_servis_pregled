@@ -1,0 +1,89 @@
+body {
+    margin:0px;
+    /*background-image:url(back.png);
+    background-repeat: no-repeat;
+    background-size:cover;*/
+
+}
+
+
+.navbar-brand{
+    margin:10px;
+}
+
+.kokteli{
+    font-size: 40px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top:10px;
+    padding-left: 65px;
+    
+}
+
+.accordion{
+    margin-top: 20px;
+}
+
+
+
+
+
+
+#lijeva_strana{
+    width: 50%;
+   /* border: 1px solid black;*/
+    float: left;
+    /*background-color: red;*/
+}
+
+
+#desna_strana{
+    width: 50%;
+    float: left;
+    /*background-color: blue;*/
+
+}
+
+
+
+
+
+.alkoholi{
+    font-size: 40px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top:10px;
+    padding-left: 65px;
+    
+}
+
+
+.slike{
+    width: 300px;
+}
+
+
+.btn {
+margin-left: 90%;
+}
+
+/*
+.veliki{
+    height: auto;
+    width: auto;
+}
+*/
+
+/*.lijevi{
+   width:700px;
+}*/
+
+/*
+.veliki img{
+    width: 300px;
+    margin-top: 10px;
+}
+*/
+
+
+
+
+
